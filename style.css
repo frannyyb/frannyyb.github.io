@@ -1,0 +1,149 @@
+
+
+body {
+    font-size: 80px;
+    padding: 35px 140px;
+    text-align: left;
+}
+
+
+#button:hover ~ #background {
+  background-color: lawngreen;
+}
+
+#button2:hover ~ #background {
+  background-color: red;
+}
+
+#button3:hover ~ #background {
+  background-color: orange;
+}
+
+#button4:hover ~ #background {
+    background-color: yellow;
+}
+
+#button5:hover ~ #background {
+    background-color: skyblue;
+}
+
+#button6:hover ~ #background {
+    background-color: mediumpurple;
+}
+
+#button7:hover ~ #background {
+    background-color: hotpink;
+}
+
+
+#background {
+  position:absolute;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+button {
+    all:unset;
+}
+
+button2 {
+    all:unset;
+}
+
+button3 {
+    all:unset;
+}
+
+button5 {
+    all:unset;
+}
+
+a {
+    all:unset;
+}
+
+.greenStyle {
+    color:lawngreen;
+}
+
+.greenStyle:hover {
+    color:white;
+    cursor:grab;
+}
+
+.redStyle {
+    color:red;
+}
+
+.redStyle:hover{
+    color:white;
+    cursor:grab;
+}
+
+.orangestyle {
+    color:orange;
+}
+
+.orangestyle:hover {
+    color:white;
+    cursor:grab;
+}
+
+.yellowstyle {
+    color:yellow;
+}
+
+.yellowstyle:hover {
+    color:white;
+    cursor: grab;
+}
+
+.bluestyle {
+    color:skyblue;
+}
+
+.bluestyle:hover {
+    color:white;
+    cursor: grab;
+}
+
+.purplestyle {
+    color:mediumpurple;
+}
+
+.purplestyle:hover {
+    color:white;
+    cursor: grab;
+}
+
+.pinkstyle {
+    color:hotpink;
+}
+
+.pinkstyle:hover {
+    color:white;
+    cursor: grab;
+}
+
+.static {
+    position:absolute;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+
+.recordImage img{
+    position: absolute;
+    width: 400pt;
+    left: 650px;
+    top: 130px;
+    z-index: 1;
+}
+
